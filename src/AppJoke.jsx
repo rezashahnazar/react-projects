@@ -8,14 +8,16 @@ export default function AppJoke() {
   };
 
   return (
-    <div>
-      <h1>{joke}</h1>
-      <input
-        type="button"
-        className="btn btn-success"
-        defaultValue="change the joke"
-        onClick={changeJoke}
-      />
+    <div className="container mt-4">
+      <div className="card p-2">
+        <h1 className="text-center">{joke}</h1>
+        <input
+          type="button"
+          className="btn btn-success"
+          defaultValue="change the joke"
+          onClick={changeJoke}
+        />
+      </div>
     </div>
   );
 }
