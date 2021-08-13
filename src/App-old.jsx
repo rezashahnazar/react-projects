@@ -7,7 +7,7 @@ export default function App() {
     method: "GET",
     url: "https://dad-jokes.p.rapidapi.com/random/joke",
     headers: {
-      "x-rapidapi-key": "42bf6c3788mshd256dd30c5a38e6p1e4351jsn2f3df465d2b3",
+      "x-rapidapi-key": "",
       "x-rapidapi-host": "dad-jokes.p.rapidapi.com",
     },
   };
